@@ -8,8 +8,8 @@ curl -sSL https://install.python-poetry.org | python3 -
 make install
 ```
 ## 3. Create a folder named "pdf" and place your PDFs into this folder.
-## 4. Run main.py
+## 4. Start converting PDFs to Images.
 ```
-python main.py
+make start
 ```
 
