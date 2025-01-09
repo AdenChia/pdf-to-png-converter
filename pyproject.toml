@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pdf-to-png-converter"
+version = "0.1.0"
+description = ""
+authors = ["adenchia <aden.chia@thewalnut.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymupdf = "^1.25.1"
+opencv-python = "^4.10.0.84"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
